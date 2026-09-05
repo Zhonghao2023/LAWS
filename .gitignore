@@ -1,0 +1,57 @@
+# Custom
+.vscode
+settings*_[0-9][0-9].ini
+~$*
+pytesting/init
+!pytesting/init/init.txt
+pytesting/output
+!pytesting/output/*/output.txt
+.pytest_cache/
+report_pytest*.html
+.ipynb_checkpoints/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sphinx documentation
+docu/_build/
+Toolkit/documentation/_build/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+/test_framework
+/laws/.idea
+*.nc
+*.tss
+*.xlsx
+Toolkit/Calibration/Crop_ParamRanges.csv
+Toolkit/Calibration/FPU/
+Toolkit/Calibration/Foodscapes/
+/.project
+/.pydevproject
+laws/.DS_Store
+laws/hydrological_modules/.DS_Store
+.DS_Store
+laws/hydrological_modules/routing_reservoirs/.DS_Store
+laws/management_modules/.DS_Store
+.idea/

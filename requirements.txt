@@ -1,0 +1,9 @@
+# Core LAWS runtime dependencies
+numpy
+scipy
+netCDF4
+GDAL
+pandas
+
+# Optional CWatM-MODFLOW coupling dependencies are available with:
+# pip install -e ".[modflow]"
